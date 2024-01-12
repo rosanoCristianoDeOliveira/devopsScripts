@@ -4,7 +4,7 @@
   become: true
   tasks:
     - name: Criacao de Usuaro
-      ansible.builtin.user:
+      ansible.builtin.users:
         name: suporte
         comment: Suporte
         uid: 5000
